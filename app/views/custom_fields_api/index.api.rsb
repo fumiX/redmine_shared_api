@@ -47,7 +47,7 @@ api.array :custom_fields do
               api.project :id => project.id, :name => project.name
             end
           end
-        end         
+        end
       end
     end
   end

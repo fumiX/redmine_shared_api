@@ -4,7 +4,7 @@ class CustomFieldsApiController < ApplicationController
   accept_api_auth :index
 
   def index
-    respond_to do |format|      
+    respond_to do |format|
       format.api {
         @custom_fields = CustomField.all
       }
